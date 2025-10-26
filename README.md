@@ -76,9 +76,9 @@ It’s a hands-on coding journey toward mastering the C++ foundations through re
 ---
 
 ### 📄 Certificate of Completion  
-🏅 *Coming soon!*  
-> You can attach your course completion certificate right here once you finish the course.  
-(Example: upload a PNG or PDF image and link it here.)
+🏅 *Here’s my certificate:*  
+![Certificate](https://github.com/AsmaaSaci/Programming-Advices-Course-4-Problems-C-/blob/main/certificate-of-completion-for-algorithms-problem-solving-level-1_page-0001.jpg)
+
 
 ---
 
