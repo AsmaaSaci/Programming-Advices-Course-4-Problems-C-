@@ -22,11 +22,10 @@ void PrintResults(int Num)
 
     cout << Result << endl;
 
-    // التحويل من رقم الى نص تكون النتيجة مثل إذا كان الرقم المدخل 11 ، تكون النتيجة //5.5000000
-    // الحل يكون في سلسلة سي ++ المستوى الثاني //
 }
 
 int main()
 {
     PrintResults(ReadNamber());
 }
+
