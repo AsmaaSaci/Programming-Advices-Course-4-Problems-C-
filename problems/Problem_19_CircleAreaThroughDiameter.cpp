@@ -1,18 +1,18 @@
-// اكتب برنامج لحساب مساحة الدائرة داخل المربع ثم اطبع الناتج
+// اكتب برنامج لحساب مساحة نصف قطر الدائرة ثم اطبع الناتج 
 #include <iostream>
 #include <string>
 using namespace std;
-float ReadSquareSide()
+float ReadRadious()
 {
-	float A;
-	cout << "Pleas enter Square Side A ? \n";
-	cin >> A;
-	return A;
+	float R;
+	cout << "Pleas enter Radious R ? \n";
+	cin >> R;
+	return R;
 }
-float CircleAreaInscribedInSquare(float A)
+float CircleArea(float R)
 {
 	const float PI = 3.141592653589793238;
-	float Area = (PI * pow(A, 2)) / 4;
+	float Area = PI * pow(R, 2);
 	return Area;
 }
 void PrintResults(float Area)
@@ -21,5 +21,6 @@ void PrintResults(float Area)
 }
 int main()
 {
-	PrintResults(CircleAreaInscribedInSquare(ReadSquareSide()));
+	PrintResults(CircleArea(ReadRadious()));
 }
+
