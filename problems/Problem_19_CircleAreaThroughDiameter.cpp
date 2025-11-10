@@ -1,18 +1,18 @@
-// اكتب برنامج لحساب مساحة نصف قطر الدائرة ثم اطبع الناتج 
+// اكتب برنامج لحساب مساحة قطر الدائرة ثم اطبع الناتج
 #include <iostream>
 #include <string>
 using namespace std;
-float ReadRadious()
+float ReadDiameter()
 {
-	float R;
-	cout << "Pleas enter Radious R ? \n";
-	cin >> R;
-	return R;
+	float D;
+	cout << "Pleas enter Diameter R ? \n";
+	cin >> D;
+	return D;
 }
-float CircleArea(float R)
+float CircleAreaByDiameter(float D)
 {
 	const float PI = 3.141592653589793238;
-	float Area = PI * pow(R, 2);
+	float Area = (PI * pow(D, 2)) / 4;
 	return Area;
 }
 void PrintResults(float Area)
@@ -21,6 +21,7 @@ void PrintResults(float Area)
 }
 int main()
 {
-	PrintResults(CircleArea(ReadRadious()));
+	PrintResults(CircleAreaByDiameter(ReadDiameter()));
 }
+
 
